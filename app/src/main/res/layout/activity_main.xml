@@ -115,11 +115,19 @@ android:layout_height="match_parent">
                 android:background="#ccc"
                 />
 
-
-
+            <Button
+                android:id="@+id/homebt"
+                android:text="Home"
+                android:textColor="#222"
+                android:padding="10dp"
+                android:background="@drawable/button"
+                android:gravity="start"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
             <Button
                 android:id="@+id/loginbt"
-                android:text="Register"
+                android:text="Login"
                 android:textColor="#222"
                 android:padding="10dp"
                 android:background="@drawable/button"
@@ -127,27 +135,6 @@ android:layout_height="match_parent">
                 android:textAppearance="?android:attr/textAppearanceListItemSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-            <Button
-                android:id="@+id/myaddrbt"
-                android:text="Categories"
-                android:textColor="#222"
-                android:padding="10dp"
-                android:background="@drawable/button"
-                android:gravity="start"
-                android:textAppearance="?android:attr/textAppearanceListItemSmall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <Button
-                android:id="@+id/myordersbt"
-                android:text="Android"
-                android:textColor="#222"
-                android:padding="10dp"
-                android:background="@drawable/button"
-                android:gravity="start"
-                android:textAppearance="?android:attr/textAppearanceListItemSmall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1pt"
@@ -162,7 +149,17 @@ android:layout_height="match_parent">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <Button
-                android:id="@+id/helpbt"
+                android:id="@+id/servicesbt"
+                android:text="Services"
+                android:textColor="#222"
+                android:padding="10dp"
+                android:background="@drawable/button"
+                android:gravity="start"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/careersbt"
                 android:text="Careers"
                 android:textColor="#222"
                 android:padding="10dp"
@@ -172,7 +169,7 @@ android:layout_height="match_parent">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <Button
-                android:id="@+id/callusbt"
+                android:id="@+id/contactusbt"
                 android:text="Contact Us"
                 android:textColor="#222"
                 android:padding="10dp"
@@ -182,7 +179,7 @@ android:layout_height="match_parent">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <Button
-                android:id="@+id/rateusbt"
+                android:id="@+id/teambt"
                 android:text="Team"
                 android:textColor="#222"
                 android:padding="10dp"
@@ -194,16 +191,6 @@ android:layout_height="match_parent">
             <Button
                 android:id="@+id/sharebt"
                 android:text="Share"
-                android:textColor="#222"
-                android:padding="10dp"
-                android:background="@drawable/button"
-                android:gravity="start"
-                android:textAppearance="?android:attr/textAppearanceListItemSmall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <Button
-                android:id="@+id/feedbackbt"
-                android:text="Feedback"
                 android:textColor="#222"
                 android:padding="10dp"
                 android:background="@drawable/button"
